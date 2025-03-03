@@ -1,5 +1,6 @@
-#Turn rewrite engine on
+# Turn rewrite engine on
 Options +FollowSymlinks
 RewriteEngine on
-#map neat URL to internal URL
-RewriteRule ^mobile/list/$  RestController.php?view=all [nc,qsa]
+
+# map neat URL to internal URL
+RewriteRule ^mobile/list/$   RestController.php?view=all [nc,qsa]
