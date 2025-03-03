@@ -1,4 +1,5 @@
 <?php
+require_once 'dbcontroller.php';
 class DBcontr_test {
     public function tesztFuttat()
     {
